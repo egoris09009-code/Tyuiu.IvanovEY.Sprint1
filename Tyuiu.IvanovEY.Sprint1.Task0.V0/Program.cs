@@ -1,0 +1,38 @@
+﻿using System;
+using Tyuiu.IvanovEY.Sprint1.Task0.V0.Lib;
+
+namespace Tyuiu.IvanovEY.Sprint1.Task0.V0
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DataService ds = new DataService();
+            int result = ds.CalculateExpression();
+
+            Console.Title = "Спринт #1 | Выполнил: Иванов Е. Ю. | ИСТНб 26-1";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Вариант #0                                                              *");
+            Console.WriteLine("* Выполнил: Иванов Е. Ю. | ИСТНб 26-1                                     *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая вычисляет выражение 9*(6/2*3)/9/3           *");
+            Console.WriteLine("* и печатает результат на экране.                                         *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* 9*(6/2*3)/9/3                                                           *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* " + result + "                                                                       *");
+            Console.WriteLine("***************************************************************************");
+
+            Console.ReadLine();
+        }
+    }
+}
