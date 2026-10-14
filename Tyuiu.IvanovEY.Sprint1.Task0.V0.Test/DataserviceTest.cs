@@ -11,8 +11,8 @@ namespace Tyuiu.IvanovEY.Sprint1.Task0.V18.Test
         {
             DataService ds = new DataService();
             int expected = 3;
-            int actual = ds.CalculateExpression();
-            Assert.AreEqual(expected, actual);
+            double actual = ds.Calculate();
+            Assert.AreEqual(expected, actual);  
         }
     }
 }

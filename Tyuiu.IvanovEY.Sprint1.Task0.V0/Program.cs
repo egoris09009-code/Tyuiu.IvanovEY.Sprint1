@@ -8,7 +8,7 @@ namespace Tyuiu.IvanovEY.Sprint1.Task0.V18
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            int result = ds.CalculateExpression();
+            double result = ds.Calculate();
 
             Console.Title = "Спринт #1 | Выполнил: Иванов Е. Ю. | ИСТНб 26-1";
             Console.WriteLine("***************************************************************************");

@@ -1,10 +1,11 @@
-﻿namespace Tyuiu.IvanovEY.Sprint1.Task0.V18.Lib
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
+namespace Tyuiu.IvanovEY.Sprint1.Task0.V18.Lib
 {
-    public class DataService
+    public class DataService : ISprint1Task0V18
     {
-        public int CalculateExpression()
+        public double Calculate()
         {
-            int result = 9 * (6 / 2 * 3) / 9 / 3;
+            double result = 9 * (6 / 2 * 3) / 9 / 3;
             return result;
         }
     }
