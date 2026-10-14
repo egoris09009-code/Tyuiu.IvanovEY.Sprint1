@@ -3,19 +3,16 @@ using Tyuiu.IvanovEY.Sprint1.Task0.V18.Lib;
 
 namespace Tyuiu.IvanovEY.Sprint1.Task0.V18
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
-            double result = ds.Calculate();
-
             Console.Title = "Спринт #1 | Выполнил: Иванов Е. Ю. | ИСТНб 26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #18                                                              *");
+            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Иванов Е. Ю. | ИСТНб 26-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -29,6 +26,10 @@ namespace Tyuiu.IvanovEY.Sprint1.Task0.V18
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+
+            DataService ds = new DataService();
+            double result = ds.Calculate();
+
             Console.WriteLine("* " + result + "                                                                       *");
             Console.WriteLine("***************************************************************************");
 
