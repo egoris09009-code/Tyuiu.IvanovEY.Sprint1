@@ -1,7 +1,7 @@
 ﻿using System;
-using Tyuiu.IvanovEY.Sprint1.Task0.V0.Lib;
+using Tyuiu.IvanovEY.Sprint1.Task0.V18.Lib;
 
-namespace Tyuiu.IvanovEY.Sprint1.Task0.V0
+namespace Tyuiu.IvanovEY.Sprint1.Task0.V18
 {
     class Program
     {
@@ -14,8 +14,8 @@ namespace Tyuiu.IvanovEY.Sprint1.Task0.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #0                                                              *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #18                                                              *");
             Console.WriteLine("* Выполнил: Иванов Е. Ю. | ИСТНб 26-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
